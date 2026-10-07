@@ -1,0 +1,44 @@
+# Python cache and environment files
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter / editor files
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+
+# OS files
+Thumbs.db
+
+# Model binaries (do not commit trained models)
+model/*.keras
+model/*.h5
+model/*.pkl
+model/*.joblib
+
+# Generated outputs (optional - comment out to keep results)
+results/*.png
+results/*.jpg
+results/*.jpeg
+results/*.csv
+results/*.txt
+
+# Other common files
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+*.iml
+.gradle
+local.properties
